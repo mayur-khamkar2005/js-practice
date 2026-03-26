@@ -1,0 +1,20 @@
+
+DOM basics: Browser me HTML elements ko JS se select/update karna (button click pe UI change).
+
+Event loop: JS ka system jo decide karta hai async code (promises, setTimeout) kis order me chalega.
+
+Closures: Function apne outer scope ke variables ko “yaad” rakhta hai.
+
+Hoisting / scope: Variables/functions memory me kab aur kis area me available hote hain.
+
+this / bind / call / apply: this ka reference control karna aur function ko different object context me run karna.
+
+Prototypes / classes: JS me objects inheritance ka base system (classes iski cleaner syntax).
+
+Debounce / throttle: Frequent events (scroll/search) ko control karke performance improve karna.
+
+LocalStorage / sessionStorage: Browser me data store karna (token, theme, cart).
+
+Error handling patterns: Errors ko properly catch/log/handle karna without app crash.
+
+TypeScript: JS + types, jisse bugs kam hote hain aur production code safe hota hai.
