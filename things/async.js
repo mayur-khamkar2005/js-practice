@@ -20,7 +20,7 @@ const Products = () => {
   })
 }
 
-const RegisterCheck = async () => {
+const RegisterCheck = async (req, res) => {
   try {
     const CheckRegister = await Register();
 
@@ -72,8 +72,11 @@ const ProductFech = async () => {
       return;
     }
     if(Fechproducts) {
-      console.log("hear is your products");
-      return true;
+      res.status(200).json({
+        succses : true,
+        massage : "thare your prroduct",
+        
+      })
     }
   } catch (error) {
      return new Error(404, "hear is the some things to be a good")
